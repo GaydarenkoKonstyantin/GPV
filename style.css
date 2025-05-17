@@ -27,6 +27,7 @@ nav ul li a {
 	padding: 0.5vw;
 	padding-inline: 5vw;
 	white-space: nowrap;
+	transition: background-color 1.5s;
 }
 
 nav ul li a:hover {
@@ -125,17 +126,19 @@ main {
 	text-decoration: none;
 	background-color: red;
 	color: white;
-	border-radius: 15px;
+	border-radius: 10px;
 	padding: 2vw;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	white-space: nowrap;
+	transition: font-weight, padding-inline 1.5s
 
 }
 
 #gamelist a:hover {
 	box-shadow: 5px 5px 5px black;
 	font-weight: 200;
+	padding-inline: 6vw;
 }
 
 #contact {
@@ -153,14 +156,16 @@ main {
 	color: white;
 	border-radius: 10px;
 	padding: 2vw;
+	padding-inline: 4vw;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
+	transition: font-weight, padding-inline 1.5s;
 }
 
 #contact a:hover {
 	box-shadow: 5px 5px 5px black;
 	font-weight: 200;
-	border-radius: 25px;
+	padding-inline: 6vw;
 }
 
 #gpimg {
