@@ -184,7 +184,7 @@ main {
 	}
 
 	nav ul {
-		justify-content: left	;
+		justify-content: flex-end;
 	}
 
 	nav ul li a {
